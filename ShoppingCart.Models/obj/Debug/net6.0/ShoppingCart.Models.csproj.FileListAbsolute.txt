@@ -1,0 +1,12 @@
+F:\ShoppingCart\ShoppingCart.Models\bin\Debug\net6.0\ShoppingCart.Models.deps.json
+F:\ShoppingCart\ShoppingCart.Models\bin\Debug\net6.0\ShoppingCart.Models.dll
+F:\ShoppingCart\ShoppingCart.Models\bin\Debug\net6.0\ShoppingCart.Models.pdb
+F:\ShoppingCart\ShoppingCart.Models\obj\Debug\net6.0\ShoppingCart.Models.csproj.AssemblyReference.cache
+F:\ShoppingCart\ShoppingCart.Models\obj\Debug\net6.0\ShoppingCart.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\ShoppingCart\ShoppingCart.Models\obj\Debug\net6.0\ShoppingCart.Models.AssemblyInfoInputs.cache
+F:\ShoppingCart\ShoppingCart.Models\obj\Debug\net6.0\ShoppingCart.Models.AssemblyInfo.cs
+F:\ShoppingCart\ShoppingCart.Models\obj\Debug\net6.0\ShoppingCart.Models.csproj.CoreCompileInputs.cache
+F:\ShoppingCart\ShoppingCart.Models\obj\Debug\net6.0\ShoppingCart.Models.dll
+F:\ShoppingCart\ShoppingCart.Models\obj\Debug\net6.0\refint\ShoppingCart.Models.dll
+F:\ShoppingCart\ShoppingCart.Models\obj\Debug\net6.0\ShoppingCart.Models.pdb
+F:\ShoppingCart\ShoppingCart.Models\obj\Debug\net6.0\ref\ShoppingCart.Models.dll

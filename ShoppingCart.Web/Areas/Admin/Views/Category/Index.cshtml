@@ -1,0 +1,82 @@
+﻿@model ShoppingCart.DataAccess.ViewModel.CategoryVM
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<div class="container p-4">
+    <div class="row p-3">
+        <div class="col-6">
+            <h2 class="text-primary">List Of Categories</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a class="btn btn-primary" asp-action="CreateUpdate" asp-controller="Category">Create</a>
+        </div>
+    </div>
+</div>
+
+
+<table class="table table-bordered table-striped" style="width:100%" >
+    <thead>
+        <tr>
+            <th>Category Name</th>
+            <th>Display Order</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.Categories)
+        {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.DisplayOrder
+                </td>
+                <td role="group">
+                    <a asp-action="CreateUpdate" asp-controller="Category" asp-route-id="@item.Id" class="text-primary">Update</a>
+                    <a class="text-danger" asp-action="Delete" asp-controller="Category" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+@* 
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Display Order</th>
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Categories) {
+        <tr>
+                <td>@item.Name</td>
+                <th>@item.DisplayOrder</th>
+
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {id=item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.Id}) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.Id})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+*@
